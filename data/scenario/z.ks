@@ -1,0 +1,12 @@
+[_tb_system_call storage=system/_z.ks]
+
+[cm  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  storage="s002.png"  time="1000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_ptext_show  x="303"  y="233"  size="40"  color="0xffffff"  time="1000"  text="本文／画像&nbsp;:&nbsp;ChatGPT&nbsp;5.2"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="303"  y="303"  size="40"  color="0xffffff"  time="1000"  text="BGM&nbsp;:&nbsp;SUNO"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="303"  y="373"  size="40"  color="0xffffff"  time="1000"  text="制作&nbsp;:&nbsp;Doodle&nbsp;style"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[bg  storage="s003.png"  time="1000"  ]
+[tb_ptext_show  x="1323"  y="912"  size="40"  color="0xffffff"  time="1000"  text="THANK&nbsp;YOU&nbsp;FOR&nbsp;PLAYING!"  anim="false"  face="NotoSansJP-Medium"  edge="undefined"  shadow="undefined"  ]
+[s  ]
