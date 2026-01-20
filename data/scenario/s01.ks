@@ -71,6 +71,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [bg  time="1000"  method="crossfade"  storage="s01.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

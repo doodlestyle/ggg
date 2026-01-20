@@ -51,12 +51,12 @@
 *s03
 
 [bg  storage="s005.png"  time="1000"  ]
+[tb_image_show  time="10"  storage="default/timg03.png"  width="1920"  height="1080"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [glink  color="btn_29_purple"  storage="s03.ks"  size="30"  text="バズる方法教えて！"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
 *s02
 
-[tb_image_show  time="10"  storage="default/timg03.png"  width="1920"  height="1080"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [glink  color="btn_29_purple"  storage="s02.ks"  size="30"  text="ちょっと話したい"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
