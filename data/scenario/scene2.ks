@@ -3,7 +3,6 @@
 *start
 
 [cm  ]
-[playbgm  volume=""  time="1000"  loop="true"  storage="z05.ogg"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [resetfont  ]
