@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_scene1.ks]
 
+*start
+
 [cm  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [resetfont  ]
@@ -16,11 +18,16 @@
 [jump  storage="scene1.ks"  target="*s01"  cond="sf.s01==1"  ]
 *s08
 
+[chara_mod  name="img"  time="600"  cross="true"  storage="chara/2/itug.png"  ]
+[chara_show  name="img"  time="1000"  wait="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[l  ]
+[chara_hide  name="img"  time="500"  wait="true"  pos_mode="true"  ]
 [glink  color="btn_29_purple"  storage="s08.ks"  size="30"  text="ChotGGGの名前の由来は？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
 *s07
 
+[tb_image_show  time="10"  storage="default/timg07.png"  width="1920"  height="1080"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [glink  color="btn_29_purple"  storage="s07.ks"  size="30"  text="犯人わかりますか？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
@@ -31,9 +38,10 @@
 [s  ]
 *s05
 
+[tb_image_show  time="10"  storage="default/timg05.png"  width="1920"  height="1080"  ]
 [bg  storage="s001.png"  time="1000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[glink  color="btn_29_purple"  storage="s05.ks"  size="30"  text="生成で人気のテーマは？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
+[glink  color="btn_29_purple"  storage="s05.ks"  size="30"  text="生成AIで人気のテーマは？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
 *s04
 
@@ -48,11 +56,13 @@
 [s  ]
 *s02
 
+[tb_image_show  time="10"  storage="default/timg03.png"  width="1920"  height="1080"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [glink  color="btn_29_purple"  storage="s02.ks"  size="30"  text="ちょっと話したい"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
 *s01
 
+[tb_image_show  time="10"  storage="default/timg01.png"  width="1920"  height="1080"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [glink  color="btn_29_purple"  storage="s01.ks"  size="30"  text="AIで勝ち組になるには？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]

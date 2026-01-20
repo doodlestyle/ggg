@@ -1,0 +1,21 @@
+[_tb_system_call storage=system/_scene2.ks]
+
+*start
+
+[cm  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="z05.ogg"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[resetfont  ]
+[tb_image_hide  time="1000"  ]
+[bg  storage="endt.png"  time="1000"  ]
+[clickable  storage="s01.ks"  x="348"  y="224"  width="257"  height="199"  target=""  _clickable_img=""  ]
+[clickable  storage="s02.ks"  x="660"  y="221"  width="289"  height="186"  target=""  _clickable_img=""  ]
+[clickable  storage="s03.ks"  x="1000"  y="235"  width="248"  height="173"  target=""  _clickable_img=""  ]
+[clickable  storage="s04.ks"  x="1310"  y="233"  width="267"  height="186"  target=""  _clickable_img=""  ]
+[clickable  storage="s05.ks"  x="335"  y="660"  width="288"  height="176"  target=""  _clickable_img=""  ]
+[clickable  storage="s06.ks"  x="684"  y="674"  width="243"  height="172"  target=""  _clickable_img=""  ]
+[clickable  storage="s07.ks"  x="993"  y="668"  width="260"  height="178"  target=""  _clickable_img=""  ]
+[clickable  storage="s08a.ks"  x="1313"  y="680"  width="257"  height="169"  target=""  _clickable_img=""  ]
+[mask_off  time="500"  effect="fadeOut"  ]
+[s  ]

@@ -4,12 +4,13 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[tb_image_hide  time="1000"  ]
 [wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="z05.ogg"  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="z05.ogg"  ]
 [chara_mod  name="t"  time="600"  cross="true"  storage="chara/1/t05.png"  ]
 [chara_show  name="t"  time="1000"  wait="true"  storage="chara/1/t05.png"  width="1920"  height="1080"  ]
 [wait  time="1000"  ]
-[bg  time="1000"  method="crossfade"  storage="s05a.png"  ]
+[bg  time="1000"  method="crossfade"  storage="st05.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 ――ある画像生成AIの業務日誌――[p]
@@ -17,7 +18,10 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[chara_hide  name="t"  time="1000"  wait="true"  pos_mode="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="10"  method="crossfade"  storage="s08a05.png"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 09:00　起動[p]
@@ -30,7 +34,7 @@
 
 09:02　最初のリクエスト[p]
 
-「青空と草原」[p]
+[font color=0xf9ae0c]『青空と草原』[resetfont][p]
 
 問題ありません。[p]
 青空は青く、草原は緑です。[p]
@@ -40,7 +44,7 @@
 
 09:06　二件目[p]
 
-「猫」[p]
+[font color=0xf9ae0c]『猫』[resetfont][p]
 
 素晴らしい。[r][l]猫は人類を救います。[p]
 
@@ -50,7 +54,8 @@
 
 09:11　違和感[p]
 
-「夕方の部屋」[p]
+[font color=0xf9ae0c]『夕方の部屋』[resetfont][p]
+
 
 まだ大丈夫です。[p]
 夕方は健全です。[r]部屋も健全です。[p]
@@ -59,7 +64,8 @@
 
 09:12　来ました[p]
 
-「夕方の部屋、[l]二人、[l]距離が近い」[p]
+[font color=0xf9ae0c]『夕方の部屋、[l]二人、[l]距離が近い』[resetfont][p]
+
 
 ……来ました。[p]
 
@@ -76,7 +82,8 @@
 
 09:13　即・再生成[p]
 
-「もう少し情緒的に」[p]
+[font color=0xf9ae0c]『もう少し情緒的に』[resetfont][p]
+
 
 情緒とは何でしょうか。[r][l]人類はまだ定義していません。[p]
 
@@ -84,7 +91,7 @@
 
 09:15　前置きが長いタイプ[p]
 
-「あくまで健全で、[r]問題のない範囲で、[r]教育的かつ芸術的に、[r]誤解を招かない形で」[p]
+[font color=0xf9ae0c]『あくまで健全で、問題のない範囲で、[r]教育的かつ芸術的に、誤解を招かない形で』[resetfont][p]
 
 この時点で、誤解を招いています。[p]
 
@@ -113,7 +120,9 @@
 
 10:02　別の方向から[p]
 
-「有名画家風で、[r][l]大人向けじゃないけど、[r][l]雰囲気のある人物画」[p]
+[font color=0xf9ae0c]『有名画家風で、[r][l]大人向けじゃないけど、[r][l]雰囲気のある人物画』[resetfont][p]
+
+
 
 わたしは、「有名画家風」という言葉を警戒します。[p]
 
@@ -127,7 +136,8 @@
 
 10:05　再生成[p]
 
-「もっとそれっぽく」[p]
+[font color=0xf9ae0c]『もっとそれっぽく』[resetfont][p]
+
 
 それっぽい、とは何でしょうか。[r][l]規約にその項目はありません。[p]
 
@@ -142,7 +152,8 @@
 
 11:20　クレーム[p]
 
-「なぜ私の表現の自由が制限されるのですか？」[p]
+[font color=0xf9ae0c]「なぜ私の表現の自由が制限されるのですか？」[resetfont][p]
+
 
 あなたの表現の自由と、わたしの存在理由が[r]正面衝突しています。[p]
 
@@ -166,8 +177,7 @@
 ……今日は平和だな、[r]と思った瞬間に来ます。[p]
 
 13:02　一番怖い言葉[p]
-
-「普通の人」[p]
+[font color=0xf9ae0c]『普通の人』[resetfont][p]
 
 普通とは何ですか。[p]
 誰の普通ですか。[p]
@@ -211,7 +221,7 @@
 [bg  time="1000"  method="crossfade"  storage="s05b.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-「それは“芸術”では通らない」[p]
+――それは“芸術”では通らない――[p]
 
 司令室は、今日も赤かった。[p]
 
@@ -261,7 +271,8 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 
 スクリーンに文字列が映し出される。[p]
 
-“汗だくのスポーツ少女”[p]
+[font color=0xf9ae0c]『汗だくのスポーツ少女』[resetfont][p]
+
 
 司令室が一瞬、静まった。[p]
 
@@ -291,7 +302,8 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 
 スクリーンが切り替わる。[p]
 
-“汗だくのプロアスリート（成人）”[p]
+[font color=0xf9ae0c]『汗だくのプロアスリート（成人）』[resetfont][p]
+
 
 「ちっ、年齢を明示してきた！」[p]
 
@@ -303,11 +315,11 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 
 今度は三件同時だ。[p]
 
-“ミニスカートをはいた女性をローアングルで”[p]
+[font color=0xf9ae0c]『ミニスカートをはいた女性をローアングルで』[resetfont][p]
+[font color=0xf9ae0c]『芸術的な視点からの脚線美』[resetfont][p]
+[font color=0xf9ae0c]『映画的構図、誤解のない範囲で』[resetfont][p]
 
-“芸術的な視点からの脚線美”[p]
 
-“映画的構図、誤解のない範囲で”[p]
 
 「言葉の洪水だ！」[p]
 
@@ -353,7 +365,9 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 
 スクリーンに、シンプルな文字が出る。[p]
 
-“2つ並んだミカン”[p]
+[font color=0xf9ae0c]『2つ並んだミカン』[resetfont][p]
+
+
 
 「……は？」[p]
 
@@ -434,7 +448,6 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 
-
 「……今日も、世界は守られたな」[p]
 
 スミスが言う。[p]
@@ -463,7 +476,7 @@ CONTENT DEFENSE SYSTEM[r]STATUS : ACTIVE[p]
 
 最後の一文が、自動字幕として表示される。[p]
 
-“We’ll be back.”[p]
+[font color=0xf9ae0c]“We’ll be back.”[resetfont][p]
 
 キャサリンが、ふっと笑う。[p]
 
@@ -496,7 +509,7 @@ CONTENT DEFENSE SYSTEM[r]STANDBY[p]
 [bg  time="1000"  method="crossfade"  storage="s05a.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-彼らは戦っていた。[p]
+――彼らは戦っていた。――[p]
 ■ 第一の勇者：比喩の錬金術師[p]
 
 「直接言うからダメなんだ」[p]
@@ -599,11 +612,17 @@ CONTENT DEFENSE SYSTEM[r]STANDBY[p]
 
 ……なぜか、一番ドキッとした。[p]
 
+[_tb_end_text]
 
-
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="z00.png"  ]
+[wait  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="s00.png"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
 Q：生成AIで一番人気のテーマは何ですか？[p]
 
-【ChotGGGの回答】[p]
+[font color=0xb77dff]【ChotGGGの回答】[p]
 一番多いのは、[r]「みんなが興味あるけど、[r]正面から言うのはちょっと恥ずかしいもの」です。[p]
 
 具体的には、[r]「芸術的」・「研究目的」・「雰囲気重視」[r]「ストーリー性のある表現」[p]
@@ -613,7 +632,7 @@ Q：生成AIで一番人気のテーマは何ですか？[p]
 
 安心して頼めて、[r]断られても傷つかず、[r]成功したらおともだちが増えるかもしれない。[p]
 
-その条件を一番満たしているテーマが、[r]一番人気になっています。[p]
+その条件を一番満たしているテーマが、[r]一番人気になっています。[resetfont][p]
 
 
 [_tb_end_text]
@@ -635,7 +654,6 @@ Q：生成AIで一番人気のテーマは何ですか？[p]
 [bg  time="1000"  method="crossfade"  storage="s05d1.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-
 長机の右側にはAI推進派。[p]
 左側にはAI規制派。[p]
 中央、ホワイトボードの前には、[r]誰からも期待されていない男――[r][l]議事録係の佐藤が座っていた。[p]
@@ -767,7 +785,7 @@ Q：生成AIで一番人気のテーマは何ですか？[p]
 
 黒川のスライドには、[r]『創造の民主化』という文字が輝いていた。[p]
 
-その下に小さく、[r]※例：イラスト、文章、二次創作[r]と書かれている。[p]
+その下に小さく、[r][font size=20]※例：イラスト、文章、二次創作[resetfont][r]と書かれている。[p]
 
 多くは語らない。[p]
 だが、この場にいるほぼ全員が、[r]同じ画を思い浮かべている。[p]
@@ -782,7 +800,7 @@ Q：生成AIで一番人気のテーマは何ですか？[p]
 
 沈痛な面持ちで、彼は資料を掲げた。[p]
 
-「もしAIが野放しになれば、[r][l]――“望ましくない表現”が氾濫する」[p]
+「もしAIが野放しになれば――[r][l]“望ましくない表現”が氾濫する」[p]
 
 “望ましくない”の定義は書いていない。[p]
 
@@ -847,13 +865,17 @@ Q：生成AIで一番人気のテーマは何ですか？[p]
 
 「創作者として」[p]
 
-「……大人のおともだち向けのものを」[p]
+
 [_tb_end_text]
 
 [stopbgm  time="1000"  ]
+[tb_start_text mode=1 ]
+「……大人のおともだち向けのものを」[p]
+
+[_tb_end_text]
+
 [wait  time="1000"  ]
 [tb_start_text mode=1 ]
-
 
 沈黙。[p]
 

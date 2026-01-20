@@ -4,11 +4,11 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="s04.ogg"  ]
+[wait  time="2000"  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="s04.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
-[wait  time="3000"  ]
+[wait  time="2000"  ]
 [bg  time="1000"  method="crossfade"  storage="s042.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -245,7 +245,7 @@ PCを閉じ、[p]
 
 「簡単ですよ」[p]
 
-「このモデルを使って、プロンプトを入力してもらうだけです」[p]
+「このモデルを使って、プロンプト――[r][l]見たいものを文章で入力してもらうだけです」[p]
 
 相手は、あまりAIに詳しくない私にも分かるよう[r]噛み砕いて説明してくれた。[p]
 
@@ -304,7 +304,6 @@ PCを閉じ、[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 
-
 それから、私は空いた時間に[r]そのモデルを触るようになった。[p]
 
 仕事終わり。[p]
@@ -324,7 +323,7 @@ SNSを見る延長の感覚で。[p]
 
 「すごいですね」[p]
 
-そう送ると、相手は言った。[p]
+そう送ると、開発者は言った。[p]
 
 「ありがとうございます、marikaさん。[r][l]フィードバックが効いてます」[p]
 
@@ -335,7 +334,6 @@ SNSを見る延長の感覚で。[p]
 [bg  time="1000"  method="crossfade"  storage="s043.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-
 
 ある日。[p]
 
@@ -369,7 +367,7 @@ SNSを見る延長の感覚で。[p]
 
 「学習データって、何を使ってるんですか？」[p]
 
-そう聞くと、相手は答えた。[p]
+そう聞くと、開発者は答えた。[p]
 
 「公開画像です」[p]
 「それと、ユーザーの評価情報も」[p]

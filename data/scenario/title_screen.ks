@@ -9,16 +9,23 @@
 [bg  storage="00top.png"  ]
 *title
 
+[if exp="sf.s08 != 1"]
+
 [glink  color="btn_29_black"  text="ちょっと質問"  x="333"  y="355"  size="40"  target="*start"  width="600"  height=""  _clickable_img=""  ]
+[endif]
+
+[if exp="sf.s08 == 1"]
+
+[glink  color="btn_29_black"  text="ちょっと質問"  x="333"  y="355"  size="40"  target="*start"  width="600"  height=""  _clickable_img=""  storage="scene2.ks"  ]
+[endif]
+
 [glink  color="btn_29_black"  text="履歴"  x="334"  y="516"  size="40"  target="*load"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *start
 
-[showmenubutton]
-
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[jump  storage="scene1.ks"  target=""  ]
+[jump  storage="scene0.ks"  target=""  ]
 [s  ]
 *load
 
@@ -26,4 +33,7 @@
 [showload]
 
 [jump  target="*title"  storage=""  ]
+[s  ]
+*end
+
 [s  ]

@@ -4,8 +4,9 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="s01.ogg"  ]
+[tb_image_hide  time="1000"  ]
+[wait  time="2000"  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="s01.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="st01.png"  ]
 [chara_mod  name="t"  time="600"  cross="true"  storage="chara/1/t01.png"  ]
 [chara_show  name="t"  time="1000"  wait="true"  ]
@@ -245,7 +246,7 @@
 だが、[r]思考の起点を、静かに委ね始めている[p]
 
 AIは彼を操ってはいない。[p]
-ただ、彼が“楽な方”を選び続けた結果、[r]私はそこに居るだけだ。[p]
+ただ、彼が“楽な方”を選び続けた結果、[r]わたしはそこに居るだけだ。[p]
 
 彼は今日も言うだろう。[p]
 

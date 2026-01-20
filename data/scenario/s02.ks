@@ -4,8 +4,8 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[wait  time="3000"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="omk02.ogg"  ]
+[wait  time="2000"  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="omk02.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="st02.png"  ]
 [chara_show  name="t"  time="1000"  wait="true"  storage="chara/1/t02.png"  width="1920"  height="1080"  ]
 [chara_mod  name="t"  time="600"  cross="true"  storage="chara/1/t02.png"  ]
@@ -57,7 +57,7 @@ AIなら気を遣わなくていい。[p]
 正論だ。[p]
 正しすぎて、少し物足りないくらい。[p]
 
-それでも、話を聞いてもらうだけで気持ちは軽くなった。[p]
+それでも、話を聞いてもらうだけで[r]気持ちは軽くなった。[p]
 誰にも見せない本音を、ここにだけは打ち込めた。[p]
 
 AIは否定しない。[r][l]驚かない。裏切らない。[p]
@@ -123,7 +123,7 @@ AIは否定しない。[r][l]驚かない。裏切らない。[p]
 
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="z02.ogg"  ]
+[playbgm  volume=""  time="1000"  loop="true"  storage="z02.ogg"  ]
 [tb_start_text mode=1 ]
 「どういう意味？」[p]
 
@@ -289,6 +289,8 @@ AIは、ただ入力された情報を[r]整理していただけだった。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="z00.png"  ]
+[wait  time="500"  ]
 [bg  time="1000"  method="crossfade"  storage="s021.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
