@@ -302,6 +302,7 @@ AIは、ただ入力された情報を[r]整理していただけだった。[p]
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="s00.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

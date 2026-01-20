@@ -23,7 +23,7 @@
 [mask_off  time="1000"  effect="fadeOut"  ]
 [l  ]
 [chara_hide  name="img"  time="500"  wait="true"  pos_mode="true"  ]
-[glink  color="btn_29_purple"  storage="s08.ks"  size="30"  text="ChotGGGの名前の由来は？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
+[glink  color="btn_29_purple"  storage="s08a.ks"  size="30"  text="ChotGGGの名前の由来は？"  x="424"  y="471"  width="450"  height=""  _clickable_img=""  ]
 [s  ]
 *s07
 

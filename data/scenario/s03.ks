@@ -85,8 +85,7 @@
 「俺のときは『価値があります』で、[r]あいつのときは『才能があります』」[p]
 「これ、差別だろ」[p]
 
-当然だが、机は何も言わない。[p]
-観葉植物も同様である。[p]
+当然だが、机は何も言わない。[r]観葉植物も同様である。[p]
 
 彼は再びChotGGGに打ち込んだ。[p]
 
@@ -163,6 +162,7 @@ GBとTBの違いはよく分からない。[p]
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [bg  time="1000"  method="crossfade"  storage="bg01.png"  ]
 [tb_show_message_window  ]

@@ -115,7 +115,6 @@
 [bg  time="1000"  method="crossfade"  storage="s063.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-
 最初の仕事は、いつもと同じだった。[p]
 
 夜。[r][l]高層ビルの屋上。[r][l]風は弱く、湿度も低い。[p]
@@ -169,7 +168,8 @@
 
 「誤差だ」[p]
 
-[font color=0xb77dff]はい。[r]しかし、誤差の積み重ねが社会です。[resetfont][p]
+[font color=0xb77dff]はい。[p]
+しかし、誤差の積み重ねが社会です。[resetfont][p]
 
 ……妙に理屈が通っている。[p]
 
@@ -355,7 +355,6 @@
 [bg  time="1000"  method="crossfade"  storage="s063.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-
 帰りの電車は、一日の終わりの匂いがした。[p]
 
 アルコール。[r][l]疲労。[r][l]諦め。[p]
@@ -400,7 +399,7 @@
 
 若者が、ちらりとこちらを見る。[p]
 
-助けを求めているのか、[r]迷惑そうなのか、[r]判断がつかない。[p]
+助けを求めているのか、迷惑そうなのか、[r]判断がつかない。[p]
 
 [font color=0xb77dff]ちょっと提案：[p]
 当事者双方に[r]退路を与える発言が有効です。[resetfont][p]
@@ -471,7 +470,7 @@
 
 撃たなかった時と、同じ感覚だ。[p]
 
-俺は、いつの間にか[r]“正しいこと”を[r]選ぶ人間になり始めている。[p]
+俺は、いつの間にか[r]“正しいこと”を選ぶ人間になり始めている。[p]
 
 それが一番、信用ならなかった。[p]
 
@@ -484,7 +483,6 @@
 [bg  time="1000"  method="crossfade"  storage="s063.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-
 
 深夜のコンビニは、妙に明るい。[p]
 
@@ -530,7 +528,7 @@
 
 「今なら、まだ間に合う」[p]
 
-「黙れ！[r][l]　金を出せ！」[p]
+「黙れ！[l]　金を出せ！」[p]
 
 虚勢を張る余裕もない男の声。[r][l]背後で、女性店員の息を呑む音がした。[p]
 

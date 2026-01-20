@@ -349,6 +349,7 @@ AIは賢い。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="z00.png"  ]
 [wait  time="500"  ]
 [bg  time="1000"  method="crossfade"  storage="s07bt.png"  ]
 [tb_show_message_window  ]
